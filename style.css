@@ -1,0 +1,203 @@
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    background-color: #fff4e1;
+}
+
+div.content {
+    padding: 20px;
+}
+
+nav {
+    font-family: Georgia, serif;
+    background-color: #8B0000;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box; 
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: Georgia, serif; 
+    font-size: 36px;
+    color: #333;
+    margin: 0;
+}
+
+h2 {
+    color: #333;
+    font-size: 28px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+}
+
+p {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: disc; 
+    padding-left: 0; 
+    text-align: left; 
+    display: inline-block; 
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px; 
+}
+
+ul li {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+section {
+    text-align: center;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+    font-family: Georgia, serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #8B0000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-top: 40px;
+    box-sizing: border-box;
+}
+
+/* Brunch page */
+.brunch-image {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 80%;  
+    max-width: 400px;
+}
+
+/* Restaurant page */
+dl {
+    margin: 30px auto;
+    padding: 0;
+    max-width: 1100px;
+    background-color: #fff9f1; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid #8B0000;
+}
+
+dl dd {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Coffee page */
+.coffee-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.coffee {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.coffee:hover {
+    transform: scale(1.05);
+}
+
+.coffee img {
+    width: 100%;  
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 10px;
+    display: block;
+}
+
+.coffee-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+/* Casual Page */
+.casual {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+.casual-item {
+    background-color: #fff9f1;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 48%; 
+    padding: 10px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    min-height: 350px; 
+}
+
+.casual-item img {
+    width: 70%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.casual-item a {
+    font-size: 18px;
+}
